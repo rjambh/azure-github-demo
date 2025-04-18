@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="azure-github-demoFlow" doc:id="d7a27c26-0636-4e4b-9199-2e924e7d3456" >
 		<http:listener doc:name="Listener" doc:id="ef96683c-43f4-45de-92d4-e5e7303267ab" config-ref="HTTP_Listener_config" path="/azure-demo"/>
-		<set-payload value='#["Azure GitHub" ++ " " ++ now()]' doc:name="Set Payload" doc:id="9aac3644-0cb8-41f6-8e5c-6cea14cccbf2" />
+		<set-payload value='#["Azure GitHub Demo" ++ " " ++ now()]' doc:name="Set Payload" doc:id="9aac3644-0cb8-41f6-8e5c-6cea14cccbf2" />
 		<logger level="INFO" doc:name="Logger" doc:id="e851dc43-1056-4101-bc9e-45060c4fcddb" message="#[payload]"/>
 	</flow>
 </mule>

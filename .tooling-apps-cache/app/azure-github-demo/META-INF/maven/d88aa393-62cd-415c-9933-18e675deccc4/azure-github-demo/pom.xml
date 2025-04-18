@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.mycompany</groupId>
+	<groupId>d88aa393-62cd-415c-9933-18e675deccc4</groupId>
 	<artifactId>azure-github-demo</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
 
 	<name>azure-github-demo</name>
@@ -29,10 +29,37 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				<configuration>
+					<cloudhub2Deployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<provider>MC</provider>
+						<environment>${enviornment}</environment>
+						<target>Cloudhub-US-East-2</target>
+						<muleVersion>${app.runtime}</muleVersion>
+						<server>{server}</server>
+						<applicationName>${app.name}</applicationName>
+						<replicas>${workers}</replicas>
+						<vCores>${workerType}</vCores>
+						<properties>
+							<http.port>8081</http.port>
+						</properties>
+						<secureProperties>
+							<key>8082</key>
+						</secureProperties>
+					</cloudhub2Deployment>
+					<classifier>mule-application</classifier>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
-
+	<distributionManagement>
+		<repository>
+			<id>anypoint-connected-app01</id>
+			<name>Corporate Repository</name>
+			<url>https://maven.anypoint.mulesoft.com/api/v3/organizations/d88aa393-62cd-415c-9933-18e675deccc4/maven</url>
+			<layout>default</layout>
+		</repository>
+	</distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.mule.connectors</groupId>

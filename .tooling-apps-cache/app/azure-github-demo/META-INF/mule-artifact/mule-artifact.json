@@ -5,7 +5,7 @@
   "secureProperties": [],
   "supportedJavaVersions": [],
   "redeploymentEnabled": true,
-  "name": "com.mycompany:azure-github-demo:1.0.0-SNAPSHOT",
+  "name": "d88aa393-62cd-415c-9933-18e675deccc4:azure-github-demo:1.0.0",
   "minMuleVersion": "4.9.0",
   "requiredProduct": "MULE",
   "classLoaderModelLoaderDescriptor": {
