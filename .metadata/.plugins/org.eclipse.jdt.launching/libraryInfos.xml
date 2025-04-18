@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="C:\Program Files\Java\jdk-17" version="17.0.12"/>
+    <libraryInfo home="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.win32.x86_64_1.4.1\" version="17.0.12"/>
+    <libraryInfo home="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\" version="1.8.0_412">
+        <bootpath>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\resources.jar"/>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\rt.jar"/>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\sunrsasign.jar"/>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\jsse.jar"/>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\jce.jar"/>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\charsets.jar"/>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\jfr.jar"/>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\classes"/>
+            <entry path="C:/PROGRA~1/dynatrace/oneagent/agent/bin/1.309.66.20250401-150134/any/java/oneagentjava.8.jar"/>
+            <entry path="C:/PROGRA~1/dynatrace/oneagent/agent/bin/1.309.66.20250401-150134/any/java/oneagentjava.jar"/>
+            <entry path="C:/PROGRA~1/dynatrace/oneagent/agent/bin/1.309.66.20250401-150134/any/java/oneagentjava.rmi.jar"/>
+            <entry path="C:/PROGRA~1/dynatrace/oneagent/agent/bin/1.309.66.20250401-150134/any/java/oneagentjava.sql.jar"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\ext"/>
+            <entry path="C:\Windows\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1" version="1.8.0_412">
+        <bootpath>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\resources.jar"/>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\rt.jar"/>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\sunrsasign.jar"/>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\jsse.jar"/>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\jce.jar"/>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\charsets.jar"/>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\jfr.jar"/>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\classes"/>
+            <entry path="C:/PROGRA~1/dynatrace/oneagent/agent/bin/1.309.66.20250401-150134/any/java/oneagentjava.8.jar"/>
+            <entry path="C:/PROGRA~1/dynatrace/oneagent/agent/bin/1.309.66.20250401-150134/any/java/oneagentjava.jar"/>
+            <entry path="C:/PROGRA~1/dynatrace/oneagent/agent/bin/1.309.66.20250401-150134/any/java/oneagentjava.rmi.jar"/>
+            <entry path="C:/PROGRA~1/dynatrace/oneagent/agent/bin/1.309.66.20250401-150134/any/java/oneagentjava.sql.jar"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\ext"/>
+            <entry path="C:\Windows\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.v8.win32.x86_64_1.3.1\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="C:\APLStudio713\MuleStudio718\AnypointStudio\plugins\org.mule.tooling.jdk.win32.x86_64_1.4.1" version="17.0.12"/>
+</libraryInfos>

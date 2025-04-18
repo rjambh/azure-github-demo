@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+org.mule.tooling.amc.apps={"userProjectMap"\:{"rjambh8910"\:{"azure-github-demo"\:"{\\"applicationName\\"\:\\"azure-github-demo\\",\\"muleRuntime\\"\:\\"4.9.3\:3e-java17\\",\\"properties\\"\:{},\\"deploymentId\\"\:\\"116f50ca-44a2-469d-ada6-2c4d501ba1f6\\"}"}}}
+org.mule.tooling.ui.properties.enable.api.dependencies=true

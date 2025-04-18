@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="b32cf54e-05e1-4e0f-ac9a-42452593725c" basePath="/api/v1">
+		<http:listener-connection host="0.0.0.0" port="8081" />
+	</http:listener-config>
+	<flow name="azure-github-demoFlow" doc:id="d7a27c26-0636-4e4b-9199-2e924e7d3456" >
+		<http:listener doc:name="Listener" doc:id="ef96683c-43f4-45de-92d4-e5e7303267ab" />
+		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="9aac3644-0cb8-41f6-8e5c-6cea14cccbf2" />
+		<logger level="INFO" doc:name="Logger" doc:id="e851dc43-1056-4101-bc9e-45060c4fcddb" />
+	</flow>
+</mule>
