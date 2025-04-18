@@ -33,13 +33,13 @@
 					<cloudhub2Deployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<provider>MC</provider>
-						<environment>${enviornment}</environment>
+						<environment>Dev</environment>
 						<target>Cloudhub-US-East-2</target>
-						<muleVersion>${app.runtime}</muleVersion>
-						<server>{server}</server>
-						<applicationName>${app.name}</applicationName>
-						<replicas>${workers}</replicas>
-						<vCores>${workerType}</vCores>
+						<muleVersion>4.9.0</muleVersion>
+						<server>anypoint-connected-app01</server>
+						<applicationName>azure-github-demo</applicationName>
+						<replicas>1</replicas>
+						<vCores>0.1</vCores>
 						<properties>
 							<http.port>8081</http.port>
 						</properties>

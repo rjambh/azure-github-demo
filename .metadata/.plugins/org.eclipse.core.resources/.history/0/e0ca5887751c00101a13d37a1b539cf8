@@ -38,8 +38,8 @@
 						<muleVersion>${app.runtime}</muleVersion>
 						<server>{server}</server>
 						<applicationName>${app.name}</applicationName>
-						<replicas>${workers}</replicas>
-						<vCores>${workerType}</vCores>
+						<replicas>1</replicas>
+						<vCores>0.1</vCores>
 						<properties>
 							<http.port>8081</http.port>
 						</properties>
